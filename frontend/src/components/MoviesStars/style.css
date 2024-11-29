@@ -1,0 +1,12 @@
+.Movies-Stars-Container{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Movies-Stars-Container svg {
+    width: 22px;
+    height: auto;
+    
+
+}

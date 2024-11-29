@@ -11,7 +11,7 @@ function Form() {
   };
   return (
     <div className="movies-form-container">
-      <img src={movies.image} alt={movies.title} />
+      <img className='movies-card-image' src={movies.image} alt={movies.title} />
       <div className="movies-card-bottom-container">
         <h3>{movies.title}</h3>
         <form className="movies-form">
@@ -30,12 +30,12 @@ function Form() {
             </select>
           </div>
           <div className="movies-form-btn-container">
-            <button className="mosvies-btn" type="submit">
+            <button className="movies-btn" type="submit">
               Salvar
             </button>
           </div>
         </form>
-        <a className="mosvies-btn" href="index.html">
+        <a className="movies-btn" href="index.html">
           Cancelar
         </a>
       </div>
